@@ -60,21 +60,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Internet Speed Test <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-> In this project, I built a speed test app that tests the speed of your internet connection. The app is built with Ruby On Rails API. The app is deployed on Heroku.
+> Describe your project in 1 or 2 sentences.
 
-**Internet Speed Test** is a web application that tests the speed of your internet connection. The app is built with Ruby On Rails API. The app is deployed on Heroku.
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Add the following features to your README:
-- Ruby
-- Ruby on Rails
-- Postgres
-- Heroku
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -86,7 +82,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Ruby On Rails</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
@@ -101,11 +97,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Add the following features to your README:
+> Describe between 1-3 key features of the application.
 
-- **Check Internet Speed**
-- **Check Download Speed**
-- **Check Upload Speed**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,19 +119,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Add instructions on how to setup, configure, and use your project locally, including:
+> Describe how a new developer could make use of your project.
 
-- Prerequisites
-- Installation
-- Setup
-- Usage
-- Deployment
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Ruby: 2.7.0
-- Rails:
-- Postgres:
+In order to run this project you need:
 
 <!--
 Example command:
@@ -147,15 +137,7 @@ Example command:
 
 ### Setup
 
-To get a local copy up and running follow these simple example steps.
-- Clone the repository with `git clone
-- Change directory into the project folder with `cd`
-- Install dependencies with `bundle install`
-- Setup database with `rails db:create`
-- Run migrations with `rails db:migrate`
-- Start the server with `rails server`
-- Open `http://localhost:3000/` in your browser
-
+Clone this repository to your desired folder:
 
 <!--
 Example commands:
@@ -168,14 +150,7 @@ Example commands:
 
 ### Install
 
-To install the project, run the following command:
-
-- `bundle install`
-- `rails db:create`
-- `rails db:migrate`
-- `rails db:seed`
-- `rails server`
-- Open `http://localhost:3000/` in your browser
+Install this project with:
 
 <!--
 Example command:
@@ -188,18 +163,7 @@ Example command:
 
 ### Usage
 
-To use the project, run the following command:
-
-- `rails server`
-- Open `http://localhost:3000/` in your browser
-- Click on the `Start Test` button to start the test
-- Click on the `Stop Test` button to stop the test
-- Click on the `Reset Test` button to reset the test
-- Click on the `Save Test` button to save the test
-- Click on the `Delete Test` button to delete the test
-- Click on the `Edit Test` button to edit the test
-- Click on the `Show Test` button to show the test
-- Click on the `Show All Tests` button to show all tests
+To run the project, execute the following command:
 
 <!--
 Example command:
@@ -213,14 +177,6 @@ Example command:
 
 To run tests, run the following command:
 
-- `rails test`
-- `rails test test/models/article_test.rb`
-- `rails test test/controllers/articles_controller_test.rb`
-- `rails test test/system/articles_test.rb`
-- `rails test test/mailers/user_mailer_test.rb`
-- `rails test test/jobs/article_job_test.rb`
-- `rails test test/integration/articles_test.rb`
-
 <!--
 Example command:
 
@@ -231,16 +187,7 @@ Example command:
 
 ### Deployment
 
-To deploy the project, run the following command:
-
-- `git push heroku master`
-- `heroku run rails db:migrate`
-- `heroku run rails db:seed`
-- `heroku open`
-- `heroku logs --tail`
-- `heroku run rails console`
-- `heroku run rails console --sandbox`
-- `heroku run rails dbconsole`
+You can deploy this project using:
 
 <!--
 Example:
@@ -260,10 +207,15 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [Samiullah](https://github.com/samiullahk997)
-- Twitter: [Samiullah](https://twitter.com/samiullahk997)
-- LinkedIn: [Samiullah](https://linkedin.com/in/sami-full-stack)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -271,11 +223,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Add the following features to your README:
+> Describe 1 - 3 features you will add to the project.
 
-- **Check Internet Speed**
-- **Check Download Speed**
-- **Check Upload Speed**
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -295,7 +247,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-Give a ⭐️ if you like this project! 🤩
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -313,9 +265,15 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add frequently asked questions about your project.
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **Question:** Answer
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -325,5 +283,6 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

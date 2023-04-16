@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Internet Speed Test <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project, I built a speed test app that tests the speed of your internet connection. The app is built with Rails API. The app is deployed on Heroku.
 
-**[your_project__name]** is a...
+**Internet Speed Test** is a web application that tests the speed of your internet connection. The app is built with Rails API. The app is deployed on Heroku.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,7 +82,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">Rails</a></li>
   </ul>
 </details>
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Test Upload Speed**
+- **Test Download Speed**
+- **Test Ping**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,15 +207,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Samiullah](https://github.com/samiullah997)
+- Twitter: [Samiullah](https://twitter.com/samiullahk997)
+- LinkedIn: [Samiullah](https://linkedin.com/in/sami-full-stack)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +217,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Describe the future features of your project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Test Upload Speed**
+- **Test Download Speed**
+- **Test Ping**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -283,6 +277,5 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

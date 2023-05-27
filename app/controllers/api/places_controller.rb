@@ -1,7 +1,7 @@
 module Api
-  class PlacesController < ApplicationController
+  class PlacesController < BaseController
     def index
-      places = get_matching_places(params["search_term"]).map do |place|
+      places = get_matching_places(params['search_term']).map do |place|
         {
           name: place.name,
           city: place.city,
@@ -24,12 +24,13 @@ module Api
     def number_of_measurments(place)
       place.internet_speeds.count
     end
-    
+
     def get_matching_places(search_term)
       if search_term.blank?
-        Place.all
+        Place.all.order('created_at DESC')
       else
-        Place.where("name LIKE :search_term OR city LIKE :search_term", search_term: "%#{search_term}%")
+        Place.where('name LIKE :search_term OR city LIKE :search_term',
+                    search_term: "%#{search_term}%").order('created_at DESC')
       end
     end
   end

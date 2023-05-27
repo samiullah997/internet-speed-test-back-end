@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   get "api/places", to: "api/places#index"
-  get "api/internet-speed-new", to: "api/internet_speeds#new"
+  post "api/internet_speed", to: "api/internet_speed#create"
 end
